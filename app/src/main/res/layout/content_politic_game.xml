@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.eksannara.daquiz.politic_game"
+    tools:showIn="@layout/activity_politic_game"
+    android:background="#F2F2F2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="#000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Politics"
+                android:id="@+id/textView12"
+                android:layout_weight="0.56"
+                android:textSize="35dp"
+                android:textColor="#ffffff"
+                android:background="#06425C" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/dpoint"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_weight="0.50"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/dtimer"
+                android:layout_gravity="right"
+                android:textColor="#06425C" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/dimg"
+                android:src="@drawable/dota"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/dtext"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#06425C" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="163dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/db1"
+                    android:layout_weight="1"
+                    android:onClick="dbtn1"
+                    android:textAlignment="center"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/db2"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:onClick="dbtn2"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/db3"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:onClick="dbtn3"
+                    android:textAlignment="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="New Button"
+                    android:id="@+id/db4"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:onClick="dbtn4"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eksannara.daquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mylogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dota2_Info"
+            android:label="@string/title_activity_dota2__info"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Dota_Game"
+            android:label="@string/title_activity_dota__game"
+            android:noHistory="true"
+            android:parentActivityName=".Dota2_Info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.Dota2_Info" />
+        </activity>
+        <activity
+            android:name=".Capital_City_Info"
+            android:label="@string/title_activity_capital__city__info"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Politics"
+            android:label="@string/title_activity_politics"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Capital_City_Game"
+            android:label="@string/title_activity_capital__city__game"
+            android:noHistory="true"
+            android:parentActivityName=".Capital_City_Info"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.Capital_City_Info" />
+        </activity>
+        <activity
+            android:name=".Dota2_results"
+            android:label="@string/title_activity_dota2_results"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:noHistory = "true"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Capital_result"
+            android:label="@string/title_activity_capital_result"
+            android:parentActivityName=".Capital_City_Info"
+            android:noHistory = "true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.Capital_City_Info" />
+        </activity>
+        <activity
+            android:name=".politic_game"
+            android:label="@string/title_activity_politic_game"
+            android:parentActivityName=".Politics"
+            android:screenOrientation="portrait"
+            android:noHistory = "true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.Politics" />
+        </activity>
+        <activity
+            android:name=".Politic_Result"
+            android:label="@string/title_activity_politic__result"
+            android:noHistory = "true"
+            android:parentActivityName=".Politics"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eksannara.daquiz.Politics" />
+        </activity>
+    </application>
+
+</manifest>

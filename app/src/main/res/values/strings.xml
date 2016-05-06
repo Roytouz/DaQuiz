@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DaQuiz!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dota2__info">Dota2_Info</string>
+    <string name="Politic_Info">Test your poltical knowledge with multiple choice of which person is the leader of which country! Who is more informed in the world politics?</string>
+    <string name="Capital_Info">Test your geographical knoweldge with fun and challanging questions and comapre them with freinds! Who is more the verse in the arts of geography? Who is more knowledgeful</string>
+    <string name="Dota_Info">Test your DOTA 2 knowledge with fun trivia facts and compare them with friends! Who is the better player? Who deserves the better MMR</string>
+    <string name="title_activity_dota__game">Dota_Game</string>
+    <string name="dq1">What is the name of this hero?</string>
+    <string name="db11">Lucifer </string>
+    <string name="db12">Lina </string>
+    <string name="db13">Naix </string>
+    <string name="db14">Luna </string>
+    <string name="dq2">Which hero has the highest base damage at level 1?</string>
+    <string name="db21">Treant Protector </string>
+    <string name="db22">Doom </string>
+    <string name="db23">Tiny </string>
+    <string name="db24">Juggernaut </string>
+    <string name="dq3">How much gold does it take to purchase daedalus?</string>
+    <string name="db31">4500 </string>
+    <string name="db32">5200 </string>
+    <string name="db33">3800 </string>
+    <string name="db34">4300 </string>
+    <string name="dq4">Name this item</string>
+    <string name="db41">Bloodstone </string>
+    <string name="db42">Aether Lens </string>
+    <string name="db43">Dragon Lance </string>
+    <string name="db44">Force Staff </string>
+    <string name="title_activity_capital__city__info">Capital_City_Info</string>
+    <string name="title_activity_politics">Politics</string>
+    <string name="title_activity_capital__city__game">Capital_City_Game</string>
+    <string name="title_activity_dota_results">Dota_results</string>
+    <string name="title_activity_dota2_results">Dota2_results</string>
+    <string name="title_activity_capital_result">Capital_result</string>
+    <string name="title_activity_politic_game">politic_game</string>
+    <string name="title_activity_politic__result">Politic_Result</string>
+
+</resources>
